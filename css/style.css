@@ -19,8 +19,37 @@ a {
 	color: #000000;
 }
 
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 nav ul {
 	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logoBaniere {
+	height: 50px;
+	margin: 56px 41px 32px 4%;
+}
+
+.menu {
+	padding: 57px 20px 0px 20px;
+}
+
+.menu:focus {
+	color: #0065FC;
+}
+
+.menu:hover,.menu:focus {
+	border-top: 2px solid #0065FC;
+}
+
+nav {
+	margin-right: 80px;
 }
 
 .filtres {
@@ -447,39 +476,6 @@ h5 {
 
 @media all and (min-width: 992px) {
 
-	.menu {
-		padding: 57px 20px 0px 20px;
-	}
-
-	.menu:focus {
-		border-top: 2px solid #0065FC;
-		color: #0065FC;
-	}
-
-	.menu:hover {
-		border-top: 2px solid #0065FC;
-	}
-
-	.logoBaniere {
-		height: 50px;
-		margin: 56px 41px 32px 4%;
-	}
-
-	nav ul {
-		display: flex;
-		justify-content: space-between;
-	}
-
-	header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-	nav {
-		margin-right: 80px;
-	}
-
 	.loupe {
 		display: none;
 	}
@@ -523,39 +519,6 @@ h5 {
 /* ------------------------------------------------------------------------ */
 
 @media (min-width: 769px) and (max-width: 991px) {
-
-	.menu {
-		padding: 57px 20px 0px 20px;
-	}
-
-	.menu:focus {
-		border-top: 2px solid #0065FC;
-		color: #0065FC;
-	}
-
-	.menu:hover {
-		border-top: 2px solid #0065FC;
-	}
-
-	.logoBaniere {
-		height: 50px;
-		margin: 56px 41px 32px 4%;
-	}
-
-	nav ul {
-		display: flex;
-		justify-content: space-between;
-	}
-
-	header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-	nav {
-		margin-right: 80px;
-	}
 
 	.fa-search {
 		display: none;
@@ -604,9 +567,17 @@ h5 {
 
 @media all and (max-width: 768px) {
 
-header {
-		display: flex;
+	header {
 		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.menu{
+		padding: 0;
+	}
+
+	nav {
+		margin-right: 0;
 	}
 
 	nav ul {
@@ -622,24 +593,28 @@ header {
 		padding-bottom: 10px;
 	}
 
+	.menu:hover, .menu:focus {
+		border-top: none;
+	}
+
 	li a:focus-within {
 		color: #0065FC;
 	}
 
 	nav li:focus-within {
-		border-bottom: 2px solid #0065FC;
+		border-bottom: 3px solid #0065FC;
 		padding-bottom: 10px;
 	}
 
 	nav li:hover {
-		border-bottom: 2px solid #0065FC;
+		border-bottom: 3px solid #0065FC;
 		padding-bottom: 10px;
 	}
 
 	.logoBaniere {
 		height: 50px;
 		align-self: center;
-		margin: 0px 0px 17px 0px;
+		margin: 20px 0px 16px 0px
 	}
 
 	.titre1 {
@@ -739,7 +714,6 @@ header {
 
 	h2 {
 		margin-top: 25px;
-		margin-left: 4%;
 	}
 
 	h3 {
