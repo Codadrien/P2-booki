@@ -139,6 +139,10 @@ h4 {
 	padding-bottom: 1%;
 }
 
+h5 {
+	margin: 25px 0 0 0;
+}
+
 .afficher-plus {
 	font-size: 1em;
 	font-weight: bold;
@@ -255,10 +259,6 @@ h4 {
 	box-shadow: 0px 0px 10px #0065FC;
 }
 
-h5 {
-	margin: 25px 0 0 0;
-}
-
 .titre1 {
 	font-size: 1.1em;
 	margin-left: 5%;
@@ -291,7 +291,6 @@ h5 {
 }
 
 .rechercher {
-
 	background-color: #0065FC;
 	border-style: solid;
 	border-color: #0065FC;
@@ -310,7 +309,6 @@ h5 {
 	background-color: #f2f2f2;
 	padding: 11px 15px 12px 15px;
 	border-radius: 10px 0px 0px 10px;
-
 }
 
 .contour-hebergements {
@@ -472,54 +470,36 @@ h5 {
 	margin-left: 236px;
 }
 
+.card-hebergements {
+	width: 29.33%;
+	height: 188px;
+	margin: 2%;
+	padding-bottom: 36px;
+}
 
-/* --------------DESKTOP-------------------------------------------------- */
-/* ----------------------------------------------------------------------- */
-/* ----------------------------------------------------------------------- */
+.flex-activites {
+	display: flex;
+	width: 50%;
+}
 
+.flex-column-activites {
+	width: 50%;
+}
 
-@media all and (min-width: 992px) {
+.vieux-port {
+	width: 50%;
+}
 
-	.loupe {
-		display: none;
-	}
+.fort,
+.iles,
+.eglise,
+.parc-long {
+	width: 100%;
+}
 
-	.fa-search {
-		display: none;
-	}
-
-	.card-hebergements {
-		width: 29.33%;
-		height: 188px;
-		margin: 2%;
-		padding-bottom: 36px;
-	}
-
-	.flex-activites {
-		display: flex;
-		width: 50%;
-	}
-
-	.flex-column-activites {
-		width: 50%;
-	}
-
-	.vieux-port {
-		width: 50%;
-	}
-
-	.fort,
-	.iles,
-	.eglise,
-	.parc-long {
-		width: 100%;
-	}
-
-	.parc-de {
-		width: 50%;
-		margin-left: 3%;
-	}
-
+.parc-de {
+	width: 50%;
+	margin-left: 3%;
 }
 
 /* --------------TABLETTE-------------------------------------------------- */
@@ -654,7 +634,7 @@ h5 {
 	.ville {
 		border-style: solid;
 		border-color: #f2f2f2;
-		padding: 8px 50px 8px 0;
+		padding: 8px 21px 8px 0;
 		outline: none;
 		border-left: none;
 		border-right: none;
@@ -673,7 +653,7 @@ h5 {
 		border-radius: 10px 10px 9px 10px;
 		padding: 14px 18px 13px 15px;
 		position: absolute;
-		left: 276px;
+		left: 247px;
 		bottom: 0px;
 		padding-bottom: 20px;
 		cursor: pointer;
