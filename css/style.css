@@ -308,7 +308,7 @@ h5 {
 
 .fa-map-marker-alt {
 	background-color: #f2f2f2;
-	padding: 11px 15px 13px 15px;
+	padding: 11px 15px 12px 15px;
 	border-radius: 10px 0px 0px 10px;
 
 }
@@ -674,7 +674,7 @@ h5 {
 		padding: 18px;
 		position: absolute;
 		left: 248px;
-		bottom: -2px;
+		bottom: 0px;
 		cursor: pointer;
 	}
 
