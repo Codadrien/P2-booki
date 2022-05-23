@@ -670,12 +670,11 @@ h5 {
 		background-color: #0065FC;
 		border-style: solid;
 		border-color: #0065FC;
-		border-radius: 10px 10px 9px 10px;
-		padding: 14px 18px 13px 15px;
+		border-radius: 10px 10px 10px 10px;
+		padding: 18px;
 		position: absolute;
-		left: 247px;
-		bottom: 0px;
-		padding-bottom: 20px;
+		left: 248px;
+		bottom: -2px;
 		cursor: pointer;
 	}
 
@@ -686,8 +685,8 @@ h5 {
 	.fa-search {
 		color: rgb(255 255 255);
 		position: absolute;
-		left: 8px;
-		bottom: 7px;
+		left: 10px;
+		bottom: 8px;
 		font-size: 1em;
 	}
 
