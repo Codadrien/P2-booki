@@ -305,6 +305,10 @@ h5 {
 	border-color: #ffffff;
 }
 
+.fa-search {
+	display: none;
+}
+
 .fa-map-marker-alt {
 	background-color: #f2f2f2;
 	padding: 11px 15px 12px 15px;
@@ -508,9 +512,6 @@ h5 {
 
 @media (min-width: 769px) and (max-width: 991px) {
 
-	.fa-search {
-		display: none;
-	}
 
 	h4 {
 		display: flex;
